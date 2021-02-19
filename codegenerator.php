@@ -1,7 +1,7 @@
 <?php
 echo '<h1>Recharge Card Generator</h1>';
 
-    function randomCardGenerator($digits) {
+    function rechargeCardGenerator($digits) {
     $pins = '';
 
     for($i = 0; $i < $digits; $i++) {
@@ -11,7 +11,7 @@ echo '<h1>Recharge Card Generator</h1>';
     return $pins;
     }
     for($i = 0; $i < 200; $i++){
-    echo randomCardGenerator(12) .'<br>';
+    echo rechargeCardGenerator(12) .'<br>';
         
     }
 
